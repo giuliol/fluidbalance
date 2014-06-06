@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   inkscape:export-filename="/home/giulio/workspace/fbalance/res/drawable-xxhdpi/icon.png"
+   inkscape:export-xdpi="330"
+   inkscape:export-ydpi="330"
+   sodipodi:docname="iconafb.svg">
+  <defs
+     id="defs4">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3954">
+      <path
+         sodipodi:type="arc"
+         style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path3956"
+         sodipodi:cx="428.92856"
+         sodipodi:cy="465.57648"
+         sodipodi:rx="48.92857"
+         sodipodi:ry="48.92857"
+         d="m 477.85713,465.57648 a 48.92857,48.92857 0 1 1 -97.85714,0 48.92857,48.92857 0 1 1 97.85714,0 z"
+         transform="matrix(0.80878186,0,0,0.80878186,209.66178,179.52667)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4089">
+      <path
+         style="fill:#2b5059;fill-opacity:1;stroke:none"
+         d="m 386.80924,528.36471 c 54.88659,83.83776 54.88659,83.83776 54.88659,83.83776 l 142.34325,-39.80785 -36.79211,-38.60157 -57.90233,-88.66295 -27.14173,22.31652 -4.22204,-10.25353 -13.87243,-10.85669 -13.26929,12.06299 z"
+         id="path4091"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="560.98885"
+     inkscape:cy="487.71232"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="1000"
+     inkscape:window-x="0"
+     inkscape:window-y="56"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       transform="matrix(0.83739837,0,0,0.83739837,176.36461,150.18062)"
+       d="m 531.7857,486.29074 a 87.85714,87.85714 0 1 1 -175.71428,0 87.85714,87.85714 0 1 1 175.71428,0 z"
+       sodipodi:ry="87.85714"
+       sodipodi:rx="87.85714"
+       sodipodi:cy="486.29074"
+       sodipodi:cx="443.92856"
+       id="path4087"
+       style="fill:#4d727b;fill-opacity:1;stroke:none"
+       sodipodi:type="arc"
+       inkscape:export-xdpi="313.16498"
+       inkscape:export-ydpi="313.16498"
+       inkscape:export-filename="/home/giulio/workspace/fbalance/512.png" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#2b5059;fill-opacity:1;stroke:none"
+       id="path4061"
+       sodipodi:cx="443.92856"
+       sodipodi:cy="486.29074"
+       sodipodi:rx="87.85714"
+       sodipodi:ry="87.85714"
+       d="m 531.7857,486.29074 a 87.85714,87.85714 0 1 1 -175.71428,0 87.85714,87.85714 0 1 1 175.71428,0 z"
+       transform="matrix(0.83739837,0,0,0.83739837,176.11208,149.78595)"
+       clip-path="url(#clipPath4089)" />
+    <path
+       transform="matrix(0.80878186,0,0,0.80878186,193.91234,194.27611)"
+       d="m 477.85713,465.57648 a 48.92857,48.92857 0 1 1 -97.85714,0 48.92857,48.92857 0 1 1 97.85714,0 z"
+       sodipodi:ry="48.92857"
+       sodipodi:rx="48.92857"
+       sodipodi:cy="465.57648"
+       sodipodi:cx="428.92856"
+       id="path3952"
+       style="fill:none;stroke:none;stroke-width:1.23642731000000006;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;fill-opacity:1"
+       sodipodi:type="arc" />
+    <path
+       style="fill:none;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 459.28571,564.86219 c 0,0 17.85714,47.14285 73.92857,45.35714 56.07143,-1.78572 93.92857,-26.78572 93.92857,-53.92857 0,-27.14286 0,-27.14286 0,-27.14286"
+       id="path4056"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="505.58139"
+       y="591.20721"
+       id="text4065"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4067"
+         x="505.58139"
+         y="591.20721"
+         style="font-size:100px;font-family:'Mademoiselle ·K·';-inkscape-font-specification:'Mademoiselle ·K·'">fb</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4069"
+       y="593.20721"
+       x="505.58139"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:100px;fill:#dddddd;fill-opacity:1;font-family:'Mademoiselle ·K·';-inkscape-font-specification:'Mademoiselle ·K·'"
+         y="593.20721"
+         x="505.58139"
+         id="tspan4071"
+         sodipodi:role="line">fb</tspan></text>
+  </g>
+</svg>

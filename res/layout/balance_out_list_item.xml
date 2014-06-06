@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_corners_round_white"
+    android:padding="3sp" >
+
+    <TextView
+        android:id="@+id/balance_list_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+                android:textAlignment="center"
+        
+        android:paddingLeft="2sp"
+        android:paddingRight="2sp"
+        android:textColor="@color/giulioBlue"
+        android:textSize="@dimen/text_small"
+        android:textStyle="italic" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/balance_list_item_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/balance_list_item_time"
+        android:gravity="left"
+        android:maxLines="2"
+        android:text="provatesto"
+        android:textColor="@color/giulioDarkBlue"
+        android:textSize="@dimen/text_small" >
+    </TextView>
+
+</RelativeLayout>

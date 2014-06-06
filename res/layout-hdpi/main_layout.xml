@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/global_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_corners_lgrey"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/listviews_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_rlayout"
+        android:layout_centerHorizontal="true"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <ListView
+            android:id="@+id/balanceIn_listview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="3sp"
+            android:layout_marginTop="10sp"
+            android:layout_weight="1" />
+
+        <ListView
+            android:id="@+id/balanceOut_listview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:layout_marginLeft="3sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/container_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@color/giulioBlack"
+        android:gravity="center"
+        android:paddingTop="10sp"
+        android:visibility="invisible" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/title_rlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/titlebar"
+        android:paddingBottom="5dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5sp"
+            android:gravity="right"
+            android:minLines="2"
+            android:textColor="@color/lightgrey"
+            android:textSize="15sp" />
+
+        <DigitalClock
+            android:id="@+id/clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="DigitalClock"
+            android:textColor="@color/lightgrey"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/in_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/title"
+            android:layout_marginBottom="2sp"
+            android:layout_marginLeft="5sp"
+            android:background="@drawable/pressable_blue"
+            android:gravity="center"
+            android:minEms="3"
+            android:paddingBottom="4sp"
+            android:paddingTop="4sp"
+            android:text="IN"
+            android:textColor="@color/lightgrey"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/out_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/title"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="5sp"
+            android:background="@drawable/pressable_blue"
+            android:gravity="center"
+            android:minEms="3"
+            android:paddingBottom="4sp"
+            android:paddingTop="4sp"
+            android:text="OUT"
+            android:textColor="@color/lightgrey"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/balance_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/in_btn"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="@color/lightgrey"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/updated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#D5000000"
+        android:gravity="center"
+        android:textColor="@color/lightgrey"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/info_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10sp"
+        android:background="@drawable/pressable"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:minEms="2"
+        android:onClick="about"
+        android:padding="5sp"
+        android:text="i"
+        android:textAlignment="center"
+        android:textColor="@color/lightgrey"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/main_beta_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40sp"
+        android:alpha="0.05"
+        android:background="@color/purple"
+        android:gravity="center"
+        android:text="BETA hdpi"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fluid Balance</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Benvenuto!</string>
+    <string name="new_px">nuovo paziente</string>
+    <string name="resume_px">riprendi&#8230;</string>
+    <string name="export_px">esporta su PDF&#8230;</string>
+    <string name="share_px">condividi&#8230;</string>
+    <string name="delete_px">rimuovi</string>
+    <string name="patient_title">riempi i campi&#8230;</string>
+    <string name="name">nome</string>
+    <string name="weight">peso</string>
+    <string name="fasting_since">ora inizio digiuno</string>
+    <string name="updated">ultimo aggiornamento \</string>
+    <string name="fasting_less1hr">digiuno da meno di un\'ora</string>
+    <string name="fasting_more1hr">digiuno da più di un\'ora</string>
+    <string name="fasting_more">digiuno da più di \</string>
+    <string name="hour">\ ore</string>
+    <string name="incisionTimeErrorString">Errore nell\'orario di inizio incisione!</string>
+    <string name="entryNameErrorString">Digitare nome dell\'entrata!</string>
+    <string name="incision">Incisione </string>
+    <string name="backMainMenu">Vuoi tornare al menù principale?</string>
+    <string name="thirst">Assetamento </string>
+    <string name="remove">Vuoi rimuovere questo elemento? </string>
+    <string name="yes">Sì</string>
+    <string name="no">No</string>
+    <string name="fastingError">Errore nell\'orario di digiuno! </string>
+    <string name="fillAllFields">Per favore riempi tutti i campi! </string>
+    <string name="tap">premere indietro ancora per uscire</string>
+    <string name="entryType">Nome voce&#8230;</string>
+    <string name="patientFileError">Errore nel caricare il file!</string>
+    <string name="patientFileNotFound">File paziente non trovato!</string>
+    <string name="patientClassNotFound">Classe non trovata!</string>
+    <string name="errorDeleting">Errore nel rimuovere il file!</string>
+    <string name="about_us">©2014 \n Giulio Luzzati\n giulio.luzzati@live.it \n Francesco Tasso\n francesco.tasso@gmail.com </string>
+    <string name="ready">Avanti >> </string>
+    <string name="agree">Ho letto ed accetto</string>
+    <string name="goodbye">Arrivederci!</string>
+    <string name="disclaimer">1. I presenti termini e condizioni di utilizzo (\"condizioni d’uso\") si applicano all\'utilizzo della presente applicazione. Utilizzando l\'applicazione, l\'utente accetta le presenti condizioni d\'uso; qualora non accetti, l\'utente deve astenersi dall\'utilizzare questa applicazione.\n\n
+        2. Gli autori non possono ritenersi in alcun modo responsabili per i danni e responsabilità diretti, indiretti, conseguenti, esemplari, incidentali o punitivi, inclusi i mancati profitti, anche nel caso in gli autori siano stati avvisati dell\'eventualità di tali danni, che potrebbero sorgere all\'utente dell\'applicazione, o a terzi, causati dall\'uso proprio o improprio dell\'applicazione o delle informazioni in essa contenute.\n\n</string>
+    <string name="disagree">Non accetto</string>
+    <string name="incisionRate">Tasso perdita [ml/(kg*h)]</string>
+    <string name="incisionNameErrorString">Digitare il tasso di perdita!</string>
+    <string name="fasting_since_dm">ora inizio digiuno (%1$d %2$s)</string>
+    <string name="tap_main">premere indietro ancora per tornare al menù principale</string>
+    <string name="errorExporting">Errore nell\'esportazione del file</string>
+    <string name="total">Totale</string>
+    <string name="noPDFreaderFound">Nessuna applicazione per leggere il PDF! File scritto in %1$s</string>
+    <string name="writeOk">File scritto in %1$s</string>
+    <string name="share">Come vuoi condividere?</string>
+
+    <string-array name="monthNames">
+        <item>Gennaio</item>
+        <item>Febbraio</item>
+        <item>Marzo</item>
+        <item>Aprile</item>
+        <item>Maggio</item>
+        <item>Giugno</item>
+        <item>Luglio</item>
+        <item>Agosto</item>
+        <item>Settembre</item>
+        <item>Ottobre</item>
+        <item>Novembre</item>
+        <item>Dicembre</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="fluidOutputs">
+        <item>Surgical incision&#8230; \</item>
+        <item>Blood loss \</item>
+        <item>Urination \</item>
+        <item>Gauzes \</item>
+        <item>Nasogastric tube \</item>
+    </string-array>
+    <string-array name="incisions">
+      <item>2 ml/kg·h</item>
+        <item>4 ml/kg·h</item>
+        <item>6 ml/kg·h</item>
+        <item>8 ml/kg·h</item>
+        <item>10 ml/kg·h</item>
+        <item>Other&#8230; \</item>
+    </string-array>
+    <string-array name="incisionModifiers">
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="incisionsDescriptions">
+        <item>VL, hemioplasty, FAV, aphenectomy, etc \</item>
+        <item>Laparocele, small surgery \</item>
+        <item>Laparocele w/prosthesis, nephrectomy, abdominal surgery, etc \</item>
+        <item>Major abdominal surgery \</item>
+        <item>Liver transplant toraco-abdominal surgery \</item>
+        <item>Other&#8230; \</item>
+    </string-array>
+
+</resources>

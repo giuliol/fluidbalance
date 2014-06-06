@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/about_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/titlebar"
+    android:paddingBottom="15sp"
+    android:layout_margin="10sp"
+    >
+
+    <TextView
+        android:id="@+id/about_us_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/giulioDarkBlue"
+        android:gravity="center"
+        android:text="About Us"
+        android:textColor="@color/lightgrey"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/about_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about_us_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginLeft="15sp"
+        android:gravity="right"
+        android:background="@drawable/rounded_corners_transp"
+        android:padding="15sp"
+        android:text="@string/about_us"
+        android:textColor="@color/lightgrey"
+        android:textSize="15sp" />
+
+</RelativeLayout>

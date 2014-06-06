@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_menu_main_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/giulioBlack"
+    android:orientation="vertical" >
+
+    <!-- <ImageView -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:src="@drawable/icon" -->
+    <!-- android:layout_centerInParent="true" -->
+    <!-- android:alpha="0.5" -->
+    <!-- /> -->
+
+    <TextView
+        android:id="@+id/main_menu_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main_menu_new_px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60sp"
+        android:text="@string/welcome"
+        android:textColor="@color/giulioBlue"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/main_menu_new_px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/pressable"
+        android:clickable="true"
+        android:gravity="center"
+        android:minEms="7"
+        android:padding="10sp"
+        android:text="@string/new_px"
+        android:textColor="@color/lightgrey"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/main_menu_resume_px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_menu_new_px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/pressable"
+        android:clickable="true"
+        android:gravity="center"
+        android:minEms="7"
+        android:padding="10sp"
+        android:text="@string/resume_px"
+        android:textColor="@color/lightgrey"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/mainmenu_beta_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:alpha="0.05"
+        android:background="@color/purple"
+        android:gravity="center"
+        android:text="BETA"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:id="@+id/main_menu_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:orientation="horizontal" >
+
+        <ListView
+            android:id="@+id/main_menu_filelistview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:divider="@drawable/giulio_black_divider"
+            android:fadeScrollbars="false"
+            android:listSelector="@android:color/transparent"
+            android:visibility="gone" 
+            android:padding="20sp"
+            />
+        
+    </LinearLayout>
+
+</RelativeLayout>

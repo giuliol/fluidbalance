@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/io_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10sp" >
+    <TextView 
+        android:id="@+id/incision_title"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20sp"
+        android:maxEms="7"
+        android:gravity="right"
+        android:background="@color/giulioBlue"
+        android:textColor="@color/lightgrey"
+        android:textSize="25sp"
+        android:paddingTop="5sp"
+        android:paddingBottom="5sp"
+        android:paddingRight="80sp"
+        android:textAlignment="viewEnd"
+        />
+    
+    <TextView 
+        android:id="@+id/incision_ok_btn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_alignBaseline="@+id/incision_title"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/pressable_round_blue"
+        android:textColor="@color/lightgrey"
+        android:text="OK"
+        android:textSize="30sp"
+        android:padding="15sp"
+        android:layout_marginTop="15sp"
+       />
+
+    <TimePicker
+        android:id="@+id/incision_timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/incision_title"
+        android:background="@drawable/rounded_corners_less_transp"
+        android:layout_centerHorizontal="true"
+         />
+    
+</RelativeLayout>

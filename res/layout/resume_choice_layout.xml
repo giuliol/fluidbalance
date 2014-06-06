@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/disclaimer_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10sp"
+    android:paddingTop="20sp" >
+
+    <TextView
+        android:id="@+id/resume_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/resume_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/text_big"
+        android:gravity="center"
+        android:text="px_name"
+        android:textColor="@color/giulioBlue"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/resume_container"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100sp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/resume_resume_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:layout_marginLeft="5sp"
+            android:background="@drawable/pressable"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="resume_choice_onClick"
+            android:padding="7sp"
+            android:text="@string/resume_px"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/resume_export_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:layout_marginLeft="5sp"
+            android:background="@drawable/pressable"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="resume_choice_onClick"
+            android:padding="7sp"
+            android:text="@string/export_px"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/resume_share_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:layout_marginLeft="5sp"
+            android:background="@drawable/pressable"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="resume_choice_onClick"
+            android:padding="7sp"
+            android:text="@string/share_px"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/resume_delete_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:layout_marginLeft="5sp"
+            android:background="@drawable/pressable"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="resume_choice_onClick"
+            android:padding="7sp"
+            android:text="@string/delete_px"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>

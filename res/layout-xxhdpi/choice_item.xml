@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pressable_blue_2"
+    android:gravity="center"
+    android:maxEms="7"
+    android:minEms="7"
+    android:padding="10sp"
+    android:textAlignment="center"
+    android:textColor="@color/white"
+    android:textSize="25sp"
+    android:textStyle="italic" />
+

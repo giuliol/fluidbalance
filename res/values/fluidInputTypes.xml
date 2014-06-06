@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="fluidInputs">
+        <item>Ringer \</item>
+        <item>Fisiologica \</item>
+        <item>Glucosata \</item>
+        <item>Polisalina \</item>
+        <item>Plasma Expander \</item>
+        <item>Albumina \</item>
+        <item>PFC \</item>
+        <item>Emazie Concentrate \</item>
+        <item>Altro&#8230;</item>
+    </string-array>
+
+</resources>

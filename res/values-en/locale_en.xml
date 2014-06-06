@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fluid Balance</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome!</string>
+    <string name="new_px">new patient</string>
+    <string name="resume_px">resume&#8230;</string>
+    <string name="export_px">export to PDF&#8230;</string>
+    <string name="share_px">share&#8230;</string>
+    <string name="delete_px">delete</string>
+    <string name="patient_title">please fill in the fields&#8230;</string>
+    <string name="name">name</string>
+    <string name="weight">weight</string>
+    <string name="fasting_since">fasting since</string>
+    <string name="updated">data updated at \</string>
+    <string name="entryNameErrorString">Please type in the entry name!</string>
+    <string name="fasting_less1hr">fasting since less than an hour</string>
+    <string name="fasting_more1hr">fasting since more than an hour</string>
+    <string name="fasting_more">fasting since more than \</string>
+    <string name="hour">\ hours</string>
+    <string name="incisionTimeErrorString">incision time error!</string>
+    <string name="incision">Incision </string>
+    <string name="backMainMenu">Go back to the main menu?</string>
+    <string name="thirst">Thirst </string>
+    <string name="remove">Do you want to remove this item? </string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="fastingError">Fasting time error! </string>
+    <string name="fillAllFields">Please fill in all the fields! </string>
+    <string name="tap">tap back once again to quit</string>
+    <string name="entryType">Entry name&#8230;</string>
+    <string name="patientFileError">Error loading file!</string>
+    <string name="patientFileNotFound">Patient file not found!</string>
+    <string name="patientClassNotFound">Class not found!</string>
+    <string name="errorDeleting">Error deleting file!</string>
+    <string name="about_us">©2014 \n Giulio Luzzati\n giulio.luzzati@live.it \n Francesco Tasso\n francesco.tasso@gmail.com </string>
+    <string name="ready">Next >></string>
+    <string name="agree">I have read and agree</string>
+    <string name="goodbye">Goodbye!</string>
+    <string name="disclaimer">1. These usage terms and conditions are to be applied herewith. By using this application, the user accepts these terms; should the user disagree with such, he must refrain from using this application.\n\n
+        2. The authors cannot be held responsible in any way for direct or indirect liabilities, even in the case the authors had been warned about the possibility of such liabilities which may derive from the proper or improper usage of such application and or the informations provided by it.\n\n</string>
+    <string name="disagree">I disagree</string>
+    <string name="incisionRate">Loss rate [ml/(kg*h)]</string>
+    <string name="incisionNameErrorString">Please type in the incision loss rate!</string>
+    <string name="fasting_since_dm">fasting since (%2$s, %1$d)</string>
+    <string name="tap_main">tap once again to go back to main menu</string>
+    <string name="errorExporting">Error exporting file</string>
+    <string name="total">Total</string>
+    <string name="noPDFreaderFound">No PDF reader found! file written to %1$s</string>
+    <string name="writeOk">File written to %1$s</string>
+    <string name="share">How do you want to share?</string>
+
+    <string-array name="monthNames">
+        <item>January</item>
+        <item>Februrary</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+</resources>

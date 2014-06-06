@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="right"
+    android:padding="2dp"
+    android:includeFontPadding="false"
+    android:textSize="15sp"
+    android:gravity="center"
+    android:textAlignment="gravity"
+    android:textColor="@color/giulioBlue"
+    android:minLines="3"
+    android:background="@drawable/rounded_corners_round_white"
+    />
+    
+
